@@ -1,0 +1,5 @@
+{% for post in posts%}
+<p><a href = ""> <h2>{{post.title}} </h2></a>
+<p> Published: {{post.published_date}} </p>
+{{post.text}}
+{% endfor %}
